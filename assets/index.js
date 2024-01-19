@@ -46,7 +46,7 @@ $(document).ready(function () {
     }
   });
   
-  
+
 $(document).ready(function () {
     var $currentDay = $("#currentDay");
     var $timeBlocks = $(".time-block");
@@ -81,15 +81,4 @@ $(document).ready(function () {
   
     // Call the function on document ready
     updateHourly();
-  
-    // Event listener on the saveBtn class when clicked will save the key and value
-    $(".saveBtn").on("click", function () {
-      var $clickedBlock = $(this).parent();
-      var key = $clickedBlock.attr("id").split("-")[1];
-      var value = $clickedBlock.find(".description").val();
-  
-      // Save key and value to Local Storage
-      localStorage.setItem(key, value);
-    });
-  });
   
