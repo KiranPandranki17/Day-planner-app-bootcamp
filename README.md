@@ -1,30 +1,42 @@
 # Day-planner-app-bootcamp
 
-Welcome to the Day Planner App – a sophisticated solution designed for professionals to effectively manage their busy schedules. This browser-based application seamlessly integrates advanced JavaScript, DOM manipulation, and the renowned [Day.js](https://day.js.org/) library to offer a dynamic and intuitive user experience.
+## Table of Contents
+
+- [Overview](#overview)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Technologies Utilized](#technologies-utilized)
+- [How to Use](#how-to-use)
+- [Additional Information](#additional-information)
+
+## Overview
+
+The Daily Planner App is a comprehensive solution designed for professionals to efficiently manage their busy schedules. This browser-based application utilizes advanced JavaScript, DOM manipulation, and the [Day.js](https://day.js.org/) library, providing a dynamic and user-friendly experience.
 
 ## User Story
 
-As an employee navigating a hectic schedule, the Day Planner App empowers you to effortlessly add and organize crucial events, enhancing your time management efficiency.
+As an employee navigating a hectic schedule, the Daily Planner App empowers you to effortlessly add and organize crucial events, enhancing your time management efficiency.
+
+## Acceptance Criteria
+
+The app should:
+
+- Display the current day at the top of the calendar when a user opens the planner.
+- Present timeblocks for standard business hours when the user scrolls down.
+- Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+- Allow a user to enter an event when they click a timeblock.
+- Save the event in local storage when the save button is clicked in that timeblock.
+- Persist events between refreshes of a page.
 
 ## Features
 
-### 1. Current Day Display
-- The app prominently showcases the current day at the top of the calendar, providing users with instant orientation.
-
-### 2. Business Hour Timeblocks
-- Scroll through timeblocks specifically tailored for standard business hours, ensuring a seamless and intuitive user experience.
-
-### 3. Color-coded Timeblocks
-- Each timeblock is elegantly color-coded to distinguish between past, present, and future events, facilitating quick visual identification.
-
-### 4. Event Entry
-- Easily enter events by clicking on the desired timeblock, streamlining the process of scheduling and planning.
-
-### 5. Save Events
-- Effortlessly save entered events with a single click using the intuitive save button integrated into each timeblock.
-
-### 6. Persistence
-- The app ensures continuity by persisting entered events between page refreshes, providing a seamless and uninterrupted user experience.
+- Current day display
+- Business hour timeblocks
+- Color-coded timeblocks
+- Event entry and save functionality
+- Persistence of events between page refreshes
 
 ## Getting Started
 
@@ -53,3 +65,4 @@ As an employee navigating a hectic schedule, the Day Planner App empowers you to
 For comprehensive guidance on utilizing the app, refer to the comments embedded within the code and the [Day.js library documentation](https://day.js.org/).
 
 Experience a new level of productivity with the Daily Planner App – your indispensable tool for efficient time management.
+
