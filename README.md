@@ -1,16 +1,5 @@
 # Day-planner-app-bootcamp
 
-## Table of Contents
-
-- [Overview](#overview)
-- [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Technologies Utilized](#technologies-utilized)
-- [How to Use](#how-to-use)
-- [Additional Information](#additional-information)
-
 ## Overview
 
 The Daily Planner App is a comprehensive solution designed for professionals to efficiently manage their busy schedules. This browser-based application utilizes advanced JavaScript, DOM manipulation, and the [Day.js](https://day.js.org/) library, providing a dynamic and user-friendly experience.
@@ -59,6 +48,28 @@ The app should:
 3. **Event Management:** Add events to specific timeblocks effortlessly.
 4. **Save Functionality:** Save events using the provided intuitive save buttons.
 5. **Persistence:** Enjoy the peace of mind knowing that the app will retain entered events between page refreshes.
+
+## Development
+
+To contribute to the project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make changes and commit (`git commit -m 'Description of changes'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Open a pull request.
+
+## Contributing
+
+Feel free to contribute by opening issues or submitting pull requests. Your input is highly valued!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Questions
+
+If you have any questions or need further clarification, please feel free to [contact me](https://github.com/KiranPandranki17/). I'm happy to assist you!
 
 ## Additional Information
 
